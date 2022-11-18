@@ -52,8 +52,8 @@ const Home = () => {
           <p>2895 N Green Valley PKWY</p>
           <p>Suite E</p>
           <p>Henderson, NV 89014</p>
-          <p>702-268-8538</p>
-          <p>702-665-4043</p>
+          <a href="tel:702-268-8538">702-268-8538</a>
+          <a href="tel:702-665-4043">702-665-4043</a>
         </div>
         {isLoaded && (
           <GoogleMap
