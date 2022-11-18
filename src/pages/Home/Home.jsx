@@ -45,13 +45,15 @@ const Home = () => {
         <img src={TempLogo} alt='logo' width='300px' />
         <div className='anouncement'>
           <h1>But we are OPEN!</h1>
-          <h2>11:00am - 10:00pm</h2>
+          <h2>11:00am - 9:00pm</h2>
           <h2>7 DAYS A WEEK</h2>
         </div>
         <div className='address'>
           <p>2895 N Green Valley PKWY</p>
           <p>Suite E</p>
           <p>Henderson, NV 89014</p>
+          <p>702-268-8538</p>
+          <p>702-665-4043</p>
         </div>
         {isLoaded && (
           <GoogleMap
